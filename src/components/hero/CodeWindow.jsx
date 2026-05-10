@@ -1,7 +1,8 @@
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { nightOwl } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import { codeExample } from "../../data/codeExample";
 
-const CodeViewer = ({ activeTab, code }) => {
+const CodeWindow = ({ activeTab }) => {
   return (
     <div className="relative overflow-hidden grow">
       <SyntaxHighlighter
@@ -17,10 +18,10 @@ const CodeViewer = ({ activeTab, code }) => {
           border: "1px solid #3c3c3c",
         }}
       >
-        {code}
+        {codeExample[activeTab]}
       </SyntaxHighlighter>
     </div>
   );
 };
 
-export default CodeViewer;
+export default CodeWindow;
