@@ -1,4 +1,5 @@
-import { features } from "../data/CodeExample";
+import { features } from "../../data/CodeExample";
+import FeatureCard from "./FeatureCard";
 
 const Features = () => {
   return (
@@ -20,16 +21,9 @@ const Features = () => {
         </div>
 
         <div className="space-y-16 sm:space-y-20 lg:space-y-12">
-          {features.map((feature,key)=>{
-            <div key={key} className="">
-              {/* Code Section */}
-              <div>
-                <div>
-                  
-                </div>
-              </div>
-            </div>
-          })}
+          {features.map((feature, key) => (
+            <FeatureCard key={key} feature={feature} />
+          ))}
         </div>
       </div>
     </section>

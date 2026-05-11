@@ -121,19 +121,31 @@ export const features = [
   {
     title: "AI Code Completion",
     description: "Intelligent code suggestions powered by advanced AI that learns from your patterns. Get real-time assistance with syntax, logic and best practice. ",
-    image:"code-completion",
+    codeSnippet: `function handleSubmit() {
+      // AI suggests next line
+      const data = await fetch("/api/submit")
+      // Auto-completed by AI
+    }`,
     imagePosition: "left",
   },
   {
     title: "Automated Testing",
     description: "Generate comprehensive test suites automatically. Our AI analyzes your",
-    image:"testing",
+     codeSnippet: `function handleSubmit() {
+      // AI suggests next line
+      const data = await fetch("/api/submit")
+      // Auto-completed by AI
+    }`,
     imagePosition: "right",
   },
   {
     title: "Smart Debugging",
     description: "Identify and fix bugs before they reach production. AI-powered error",
-    image:"debugging",
+     codeSnippet: `function handleSubmit() {
+      // AI suggests next line
+      const data = await fetch("/api/submit")
+      // Auto-completed by AI
+    }`,
     imagePosition: "left"
   },
 ]
