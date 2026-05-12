@@ -1,6 +1,5 @@
 import { FaGithub, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { footerLinks } from "../data/CodeExample";
-import Logo from "./navbar/Logo";
 
 const Footer = () => {
   return (
@@ -11,7 +10,11 @@ const Footer = () => {
           <div className="col-span-1 sm:col-span-3 lg:col-span-2 text-center sm:text-left">
             <div className="flex items-center justify-center sm:justify-start space-x-2 mb-3 sm:mb-4">
               <div className="rounded-lg">
-                <Logo/>
+                <img
+                  src="/logo.png"
+                  alt="CodeFlow Logo"
+                  className="w-6 h-6 sm:w-8 sm:h-8"
+                />
               </div>
               <span className="text-lg sm:text-xl font-bold">
                 <span className="text-white">Flow</span>

@@ -1,42 +1,15 @@
-const Logo = ({size = 30}) => {
+const Logo = () => {
   return (
-    
-      <div className="flex items-center space-x-2 cursor-pointer select-none">
-      {/* Icon */}
-      <svg
-        width={size}
-        height={size}
-        viewBox="0 0 64 64"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        {/* Outer Circle */}
-        <circle
-          cx="32"
-          cy="32"
-          r="30"
-          stroke="#3B82F6"
-          strokeWidth="4"
-        />
+    <div className="flex items-center space-x-1 group cursor-pointer">
+      <div>
+        <img src="/logo.png" alt="FlowAI" className="w-6 h-6 sm:w-8 sm:h-8" />
+      </div>
 
-        {/* Flow Shape */}
-        <path
-          d="M18 38C24 20 40 20 46 38"
-          stroke="#3B82F6"
-          strokeWidth="4"
-          strokeLinecap="round"
-        />
-
-        <path
-          d="M22 42C27 30 37 30 42 42"
-          stroke="#3B82F6"
-          strokeWidth="4"
-          strokeLinecap="round"
-        />
-      </svg>
+      <span className="text-lg sm:text-xl md:text-2xl font-medium">
+        <span className="text-white">Flow</span>
+        <span className="text-blue-400">AI</span>
+      </span>
     </div>
-
-      
   );
 };
 
