@@ -131,7 +131,7 @@ export const features = [
   {
     title: "Automated Testing",
     description: "Generate comprehensive test suites automatically. Our AI analyzes your",
-     codeSnippet: `function handleSubmit() {
+    codeSnippet: `function handleSubmit() {
       // AI suggests next line
       const data = await fetch("/api/submit")
       // Auto-completed by AI
@@ -141,7 +141,7 @@ export const features = [
   {
     title: "Smart Debugging",
     description: "Identify and fix bugs before they reach production. AI-powered error",
-     codeSnippet: `function handleSubmit() {
+    codeSnippet: `function handleSubmit() {
       // AI suggests next line
       const data = await fetch("/api/submit")
       // Auto-completed by AI
@@ -149,3 +149,67 @@ export const features = [
     imagePosition: "left"
   },
 ]
+
+export const plans = [
+  {
+    name: "Starter",
+    price: "29.99",
+    description: "Perfect for individuals and small teams",
+    features: [
+      "Up to 5 team members ",
+      "10GB storage",
+      "Basic analytics",
+      "Email support",
+      "API access",
+      "Mobile app",
+    ],
+    mostPopular: false,
+  },
+  {
+    name: "Professional",
+    price: "79.99",
+    description: "Best for growing business",
+    features: [
+      "Up to 25 team members ",
+      "100GB storage",
+      "Advanced analytics",
+      "Priority support",
+      "API access",
+      "Mobile app",
+      "Custom integration",
+      "Advanced security",
+    ],
+    mostPopular: true,
+  },
+  {
+    name: "Enterprise",
+    price: "199.99",
+    description: "For large organizations",
+    features: [
+      "Unlimited team members ",
+      "Unlimited storage",
+      "Enterprise analytics",
+      "24/7 phone support",
+      "API access",
+      "Mobile app",
+      "Custom integration",
+      "Advanced security",
+      "Dedicated account manager",
+      "Custom SLA",
+    ],
+    mostPopular: false,
+  },
+]
+
+export const footerLinks = {
+  Product: ["Features", "Pricing", "Security", "Roadmap", "Changelog"],
+  Company: ["About", "Blog", "Careers", "Press", "Partners"],
+  Resources: [
+    "Documentation",
+    "Help Center",
+    "Community",
+    "API Reference",
+    "Status",
+  ],
+  Legal: ["Privacy", "Terms", "Cookie Policy", "Licenses", "Compliance"],
+};

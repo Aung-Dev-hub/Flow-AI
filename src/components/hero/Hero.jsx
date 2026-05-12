@@ -13,7 +13,7 @@ const Hero = () => {
   const [activeTab, setActiveTab] = useState("App.jsx");
 
   return (
-    <section className="relative min-h-screen  flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8 pt-28 sm:pt-32 lg:pt-20 pb-12">
+    <section className="relative min-h-screen  flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8 pt-24 sm:pt-28 md:pt-20 lg:pt-25 pb-12">
       <GlowBackground mousePosition={mousePosition} />
 
       <div className="max-w-7xl mx-auto text-center relative w-full">
