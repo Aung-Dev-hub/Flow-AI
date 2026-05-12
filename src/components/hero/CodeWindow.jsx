@@ -1,6 +1,6 @@
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { nightOwl } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import { codeExample } from "../../data/codeExample";
+import { codeExample } from "../../data/CodeExample";
 
 const CodeWindow = ({ activeTab }) => {
   return (
